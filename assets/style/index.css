@@ -128,7 +128,7 @@ body {
 
 .ntf-content .ntf-profile {
     padding-bottom: 18%;
-    background-image: url(./assets/image/ImagePlaceHolder.png);
+    background-image: url(../image/ImagePlaceHolder.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
