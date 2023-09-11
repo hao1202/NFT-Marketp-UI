@@ -87,6 +87,10 @@ body {
 
 /* end  */
 
+.ntf-header .containerNav {
+    display: none;
+}
+
 .ntf-logo {
     display: flex;
     align-items: center;
@@ -127,7 +131,7 @@ body {
 }
 
 .ntf-content .ntf-profile {
-    padding-bottom: 18%;
+    padding-bottom: 30%;
     background-image: url("../image/Image\ PlaceHolder1.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -222,7 +226,6 @@ body {
 }
 
 .ntf-tabs .tabs-item {
-    width: 55rem;
     color: #858584;
     font-size: 2.2rem;
     font-weight: 400;
@@ -254,14 +257,12 @@ body {
     margin-bottom: 4rem;
 }
 
-.cart-list:last-child {
-    margin-bottom: 0rem;
-}
-
 .cart-item {
+    margin-bottom: 4rem;
     border-radius: 2.5rem;
     background-color: var(--primary-background);
     width: 45rem;
+    margin-left: 3rem;
 }
 
 .cart-item img {
